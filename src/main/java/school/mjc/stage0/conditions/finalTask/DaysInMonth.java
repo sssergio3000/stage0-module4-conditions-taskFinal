@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class DaysInMonth {
     public void printDays(int year, int month) {
-        if (month < 1 ||&&month > 12){
+        if (month < 1 ||month > 12){
             System.out.println("invalid date");
         }
         if (month == 2) {
